@@ -14,7 +14,7 @@ import static com.example.bren.hackdavis.R.layout.find_tutor;
 /**
  * Created by Daanish on 5/8/2016.
  */
-public class AddClassFrag extends Fragment {
+public class AddClass extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

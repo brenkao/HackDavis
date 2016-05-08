@@ -111,9 +111,9 @@ public class sidebar extends AppCompatActivity
         } else if (id == R.id.history) {
             fragmentClass = History.class;
         } else if (id == R.id.add_class) {
-            fragmentClass = AddClassFrag.class;
+            fragmentClass = AddClass.class;
         } else if (id == R.id.edit_class) {
-            fragmentClass = EditClassFrag.class;
+            fragmentClass = EditClass.class;
         }
 
 

@@ -14,13 +14,13 @@ import static com.example.bren.hackdavis.R.layout.find_tutor;
 /**
  * Created by Daanish on 5/8/2016.
  */
-public class EditClassFrag extends Fragment {
+public class EditClass extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        return inflater.inflate(R.layout.find_tutor, container, false);
+        return inflater.inflate(R.layout.edit_class, container, false);
     }
     private void doMySearch(String query){
 

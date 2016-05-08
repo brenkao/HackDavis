@@ -20,7 +20,7 @@ public class Tools extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        return inflater.inflate(R.layout.find_tutor, container, false);
+        return inflater.inflate(R.layout.tools, container, false);
     }
     private void doMySearch(String query){
 
