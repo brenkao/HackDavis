@@ -54,4 +54,15 @@
         android:layout_above="@+id/uName"
         android:layout_centerHorizontal="true" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Enter Valid Credentials"
+        android:textColor="@color/red"
+        android:id="@+id/invalid"
+        android:layout_alignTop="@+id/passphrase"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:visibility="invisible"/>
+
 </RelativeLayout>
