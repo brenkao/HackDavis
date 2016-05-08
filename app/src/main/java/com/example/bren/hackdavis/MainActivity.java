@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity{
         submitButton.setOnClickListener(
                 new Button.OnClickListener(){
                     public void onClick(View v){
-
+                        startActivity(new Intent(MainActivity.this, sidebar.class));
                     }
                 }
         );
