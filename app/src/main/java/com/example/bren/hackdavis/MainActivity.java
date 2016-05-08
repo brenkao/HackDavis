@@ -40,6 +40,13 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         //Refresh your stuff here
         TextView tv = (TextView) findViewById(R.id.invalid);
+        EditText pass = (EditText) findViewById(R.id.passphrase);
+        EditText user = (EditText) findViewById(R.id.uName);
+        user.setText("");
+        user.setHint(R.string.usernameHint);
+        pass.setText("");
+        pass.setHint(R.string.passphraseHint);
+
         tv.setVisibility(View.INVISIBLE);
     }
 }
