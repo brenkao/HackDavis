@@ -31,7 +31,7 @@ public class sidebar extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "No new messages.", Snackbar.LENGTH_SHORT)
                         .setAction("Action", null).show();
             }
         });
@@ -107,13 +107,13 @@ public class sidebar extends AppCompatActivity
         if (id == R.id.find_tutor) {
             fragmentClass = FindTutor.class;
         } else if (id == R.id.tools) {
-
+            fragmentClass = Tools.class;
         } else if (id == R.id.history) {
-
+            fragmentClass = History.class;
         } else if (id == R.id.add_class) {
-
+            fragmentClass = AddClassFrag.class;
         } else if (id == R.id.edit_class) {
-
+            fragmentClass = EditClassFrag.class;
         }
 
 
