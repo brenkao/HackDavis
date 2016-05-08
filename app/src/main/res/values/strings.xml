@@ -18,7 +18,7 @@
     <string name="tools">Tools</string>
     <string name="add_class">Add Class</string>
     <string name="edit_class">Edit Class</string>
-    <string name="welcome">Welcome!</string>
+    <string name="welcome">Welcome! </string>
     <string name="welcome_string">Welcome to the \ntutor-student pairing app! \n\nPlease navigate to the sidebar to start!</string>
     <string name="billing">Billing</string>
     <string name="searchClass">Search Class</string>

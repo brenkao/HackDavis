@@ -26,8 +26,11 @@ public class MainActivity extends AppCompatActivity {
         submitButton.setOnClickListener(
             new Button.OnClickListener() {
                 public void onClick(View v) {
-                    if (user.getText().toString().length() > 0 && pass.getText().toString().length() > 0)
-                        startActivity(new Intent(MainActivity.this, sidebar.class));
+                    if (user.getText().toString().length() > 0 && pass.getText().toString().length() > 0) {
+                        Intent intent = new Intent(MainActivity.this, sidebar.class);
+                        intent.putExtra("user", user.getText().toString());
+                        startActivity(intent);
+                    }
                     else
                         tv.setVisibility(View.VISIBLE);
                 }
