@@ -85,6 +85,7 @@ public class sidebar extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.find_tutor) {
+            startActivity(new Intent(sidebar.this, FindTutor.class));
             // Handle the camera action
         } else if (id == R.id.tools) {
 
