@@ -47,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Tutor"
+        android:text="@string/app_name"
         android:textSize="@dimen/title_font"
         android:id="@+id/textView2"
         android:layout_marginBottom="78dp"

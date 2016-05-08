@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tutor</string>
+    <string name="app_name">TutorConnect</string>
     <string name="username">Kerberos Login ID</string>
     <string name="passphrase">Passphrase</string>
     <string name="usernameHint">Login ID</string>
@@ -7,7 +7,7 @@
     <string name="loginButton">Submit</string>
     <string name="tutorButton">Tutor</string>
     <string name="tuteeButton">Tutee</string>
-    <string name="title_activity_sidebar">sidebar</string>
+    <string name="navigation">Navigation</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -19,4 +19,6 @@
     <string name="add_class">Add Class</string>
     <string name="edit_class">Edit Class</string>
     <string name="welcome">Welcome!</string>
+    <string name="welcome_string">Welcome to the tutor-student pairing app! \nPlease navigate to the sidebar to start!</string>
+    <string name="billing">Billing</string>
 </resources>
