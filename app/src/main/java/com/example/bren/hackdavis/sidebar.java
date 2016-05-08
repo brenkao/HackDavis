@@ -125,9 +125,7 @@ public class sidebar extends AppCompatActivity
         // Insert the fragment by replacing any existing fragment
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.fragLay, fragment).commit();
-
-        // Highlight the selected item has been done by NavigationView
-        item.setChecked(true);
+        
         // Set action bar title
         setTitle(item.getTitle());
         // Close the navigation drawer
@@ -135,5 +133,12 @@ public class sidebar extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
 
         return true;
+    }
+
+    @Override
+    public void onResume()
+    {  // After a pause OR at startup
+        super.onResume();
+        //Refresh your stuff here
     }
 }
