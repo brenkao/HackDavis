@@ -5,4 +5,12 @@
     <string name="usernameHint">Login ID</string>
     <string name="passphraseHint">Passphrase</string>
     <string name="loginButton">Submit</string>
+    <string name="tutorButton">Tutor</string>
+    <string name="tuteeButton">Tutee</string>
+    <string name="title_activity_sidebar">sidebar</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>
