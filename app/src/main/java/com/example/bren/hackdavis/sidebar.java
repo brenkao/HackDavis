@@ -86,9 +86,9 @@ public class sidebar extends AppCompatActivity
 
         } else if (id == R.id.history) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.add_class) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.edit_class) {
 
         }
 

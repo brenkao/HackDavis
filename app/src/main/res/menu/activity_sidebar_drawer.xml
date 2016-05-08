@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-.
     <item android:title="@string/tuteeButton">
 
         <menu>
             <item
                 android:id="@+id/find_tutor"
-                android:title="Search" />
+                android:title="@string/find_tutor" />
             <item
                 android:id="@+id/history"
-                android:title="History" />
+                android:title="@string/history" />
             <item
                 android:id="@+id/tools"
-                android:title="Tools" />
+                android:title="@string/tools" />
         </menu>
     </item>
 
@@ -23,10 +22,10 @@
        <menu>
             <item
                 android:id="@+id/add_class"
-                android:title="Add Class" />
+                android:title="@string/add_class" />
             <item
-                android:id="@+id/nav_send"
-                android:title="Send" />
+                android:id="@+id/edit_class"
+                android:title="@string/edit_class" />
        </menu>
     </item>
 

@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.bren.hackdavis.sidebar"
-    tools:showIn="@layout/content_sidebar">
+    tools:context="com.example.bren.hackdavis.sidebar">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
