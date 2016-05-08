@@ -14,13 +14,12 @@
         android:layout_height="wrap_content"
         android:id="@+id/uName"
         android:inputType="text"
-        android:layout_above="@+id/passphrase"
         android:hint="@string/usernameHint"
-        android:layout_marginBottom="58dp"
-        android:layout_alignRight="@+id/passphrase"
-        android:layout_alignEnd="@+id/passphrase"
+        android:layout_above="@+id/passphrase"
         android:layout_alignLeft="@+id/passphrase"
-        android:layout_alignStart="@+id/passphrase" />
+        android:layout_alignStart="@+id/passphrase"
+        android:layout_alignRight="@+id/passphrase"
+        android:layout_alignEnd="@+id/passphrase" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -29,15 +28,30 @@
         android:ems="10"
         android:id="@+id/passphrase"
         android:hint="@string/passphraseHint"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_above="@+id/submit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/submit"
-        android:layout_below="@+id/passphrase"
+        android:text="@string/loginButton"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="47dp"
-        android:text="@string/loginButton" />
+        android:layout_marginBottom="84dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tutor"
+        android:textSize="@dimen/title_font"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp" />
+
 </RelativeLayout>
